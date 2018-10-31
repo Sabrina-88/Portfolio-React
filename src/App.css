@@ -1,0 +1,178 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.logo{
+  background: url(https://i.imgur.com/SUIg5kw.png) cover center;
+  width: 100%;
+}
+
+.text-menu {
+  font-size: 36px;
+  color:red;
+  text-shadow: 3px -1px 6px rgba(150, 150, 150, 1);
+}
+ .landing-grid {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner-text  p#apresentacao {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding: 8% 50px 70px 50px;
+  font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+   line-height: 1.3;
+   margin: auto;
+}
+ span#special {
+  color: rgba(251,11,78,1.00);
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+ .contact-text{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.container-contact{
+  display: flex;
+  flex-direction: column;
+}
+.contact-text h3 {
+  font-size: 36px;
+  color: rgba(251,11,78,1.00);
+}
+
+.contact-text hr {
+  border-top: 1px solid #898b8c;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-text p {
+  color: rgba(251,11,78,1.00);
+  font-size: 20px;
+  padding: 1em;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  /*width: 50%;*/
+  margin: auto;
+}
+
+.social-links i {
+  color: #202628;
+  font-size: 5em;
+  padding-right: 30px;
+}
+.email{
+  font-size:22px;
+  color: rgba(251,11,78,1.00); 
+padding-top: 5%;
+font-weight: 700;
+
+}
+ .mdl-layout__content{
+  width: 100%;
+}
+
+.card{
+  min-width: 450;
+  margin: auto;
+
+}
+.portfolio{
+  margin:20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CardTitle{
+  color:4C4C4C;
+  height: 256px;
+}
+#portfolio1{
+    background:url('https://i.imgur.com/fDRRrQ1.png') no-repeat center;
+  /*background-position: 50% 10%;*/
+  background-size: 330px 600px;
+}
+
+#portfolio2{
+    background:url('https://i.imgur.com/1wUBQ9S.png') no-repeat center;
+  /*background-position: 50% 10%;*/
+  background-size: 330px 600px;
+}
+
+
+#portfolio3{
+    background:url('https://i.imgur.com/hyEmp55.png') no-repeat center;
+  /*background-position: 50% 10%;*/
+  background-size: 330px 600px;
+}
+
+.text-footer{
+  color: #d6d6d6;
+  text-align: center;
+}
+
+.btn link{
+  color:white;
+ margin: 10px;
+}
+
+.botao {
+  text-align: center;
+  line-height: 2;
+  background: rgba(251,11,78,1.00);
+  color: white;
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  /*transition: 2s;*/
+}
+.btn .botao:hover {
+  background-color: rgba(0,0,0,0.02);
+  border: 2px solid white;
+  cursor: pointer;
+  /*transition: 2s;*/
+}
+.btn .botao link:hover {
+  background-color: rgba(0,0,0,0.02);
+  cursor: pointer;
+  font-size: -150%;
+}
+
+.contact-body{
+  margin: auto;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+}
