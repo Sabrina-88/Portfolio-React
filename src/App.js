@@ -11,18 +11,14 @@ class App extends Component {
       <div>
     <div style={{height: '500px', position: 'relative'}}>
     <Layout className="grande" style={{background:"url('https://i.imgur.com/AKmuCRr.png') center / cover"}}>
-        <Header title="Title" style={{background:'rgba(249,249,249,0.10)', color: 'white'}} >
+        <Header title="Sabrina Andrade" style={{background:'rgba(249,249,249,0.10)'}} >
             <Navigation  >
                 <Link to="/projects" className="text-menu">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" className="text-menu">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Sabrina Andrade">
             <Navigation>
-
-
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>    
             </Navigation>

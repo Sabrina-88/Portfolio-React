@@ -6,11 +6,9 @@ class Landing extends Component {
 render (){
 	return(
 		<div style={{width:'100%', margin: 'auto'}}>
-			<h1></h1>
+			<h1>Em breve</h1>
 		
-		<Grid className="landing-grid">
-			<Cell col={12}></Cell>
- 			</Grid></div>
+		</div>
 		)
 }
 }
