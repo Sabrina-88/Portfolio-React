@@ -44,7 +44,7 @@ class App extends Component {
 
 <Footer >
     <FooterSection type="middle">
-            <p className="text-footer">Copyright 2018 Programação: Sabrina Andrade | Design: Sabrina Andrade</p>
+            <p className="text-footer">Copyright 2019 Programação: Sabrina Andrade | Design: Sabrina Andrade</p>
     </FooterSection>
 </Footer>
            
